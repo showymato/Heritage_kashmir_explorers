@@ -1,0 +1,255 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Enhanced color palette for better contrast and luxury feel */
+  --background: #faf9f6; /* Soft Off-White */
+  --foreground: #333333; /* Charcoal Gray */
+  --card: #ffffff;
+  --card-foreground: #333333;
+  --popover: #ffffff;
+  --popover-foreground: #333333;
+  --primary: #c89b3c; /* Warm Gold */
+  --primary-foreground: #ffffff;
+  --secondary: #1b4332; /* Deep Forest Green */
+  --secondary-foreground: #ffffff;
+  --muted: #f5f0e1; /* Soft Beige */
+  --muted-foreground: #666666;
+  --accent: #d4af37; /* Rich Gold */
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --destructive-foreground: #ffffff;
+  --border: #e5e5e5;
+  --input: #f5f0e1;
+  --ring: #c89b3c;
+  --chart-1: #c89b3c;
+  --chart-2: #1b4332;
+  --chart-3: #f5f0e1;
+  --chart-4: #333333;
+  --chart-5: #d4af37;
+  --radius: 0.5rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #333333;
+  --sidebar-primary: #c89b3c;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #1b4332;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #e5e5e5;
+  --sidebar-ring: #c89b3c;
+  --font-serif: "Playfair Display";
+  --font-sans: "Inter";
+}
+
+.dark {
+  --background: #1a1a1a;
+  --foreground: #faf9f6;
+  --card: #2a2a2a;
+  --card-foreground: #faf9f6;
+  --popover: #2a2a2a;
+  --popover-foreground: #faf9f6;
+  --primary: #c89b3c;
+  --primary-foreground: #ffffff;
+  --secondary: #1b4332;
+  --secondary-foreground: #faf9f6;
+  --muted: #3a3a3a;
+  --muted-foreground: #a0a0a0;
+  --accent: #d4af37;
+  --accent-foreground: #ffffff;
+  --destructive: #dc2626;
+  --destructive-foreground: #faf9f6;
+  --border: #3a3a3a;
+  --input: #3a3a3a;
+  --ring: #c89b3c;
+  --chart-1: #c89b3c;
+  --chart-2: #1b4332;
+  --chart-3: #f5f0e1;
+  --chart-4: #333333;
+  --chart-5: #d4af37;
+  --sidebar: #1a1a1a;
+  --sidebar-foreground: #faf9f6;
+  --sidebar-primary: #c89b3c;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #1b4332;
+  --sidebar-accent-foreground: #faf9f6;
+  --sidebar-border: #3a3a3a;
+  --sidebar-ring: #c89b3c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  /* Enhanced smooth scrolling and typography */
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .font-serif {
+    font-family: var(--font-serif), "Playfair Display", serif;
+  }
+
+  .font-sans {
+    font-family: var(--font-sans), "Inter", sans-serif;
+  }
+
+  /* Improved mobile touch targets */
+  @media (max-width: 768px) {
+    button,
+    a {
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
+}
+
+/* Enhanced animations and mobile-optimized effects */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typewriter 3s steps(40, end);
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Enhanced glassmorphism and mobile-friendly effects */
+.parallax {
+  transform: translateZ(0);
+  will-change: transform;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Refined cultural pattern with better mobile performance */
+.chinar-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23C89B3C' fill-opacity='0.03'%3E%3Cpath d='M30 30c0-11.046-8.954-20-20-20s-20 8.954-20 20 8.954 20 20 20 20-8.954 20-20zm0 0c0 11.046 8.954 20 20 20s20-8.954 20-20-8.954-20-20-20-20 8.954-20 20z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Added utility classes for better mobile experience */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* Mobile-optimized spacing and typography */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.3;
+  }
+}
+
+/* Enhanced focus states for accessibility */
+.focus-visible:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
