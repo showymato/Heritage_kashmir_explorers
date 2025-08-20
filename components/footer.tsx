@@ -78,8 +78,8 @@ export function Footer() {
                 <span className="text-secondary-foreground/80">+91 9876543210</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-primary" />
-                <span className="text-secondary-foreground/80">info@heritagekashmir.com</span>
+                {/* <Mail className="h-5 w-5 text-primary" /> */}
+                {/* <span className="text-secondary-foreground/80">info@heritagekashmir.com</span> */}
               </div>
               <div className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-primary mt-1" />

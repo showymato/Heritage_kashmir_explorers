@@ -375,8 +375,8 @@ export default function DestinationsPage() {
             <div>
               <h4 className="font-semibold text-foreground mb-4">Contact Info</h4>
               <div className="space-y-2 text-sm text-muted-foreground">
-                <p>📞 +91 9876543210</p>
-                <p>📧 info@heritagekashmir.com</p>
+                {/* <p>📞 +91 9876543210</p> */}
+                {/* <p>📧 info@heritagekashmir.com</p> */}
                 <p>📍 Dal Lake, Srinagar, Kashmir</p>
                 <p className="text-xs mt-4">Licensed Tour Operator | GST: 01XXXXX1234X1XX</p>
               </div>

@@ -250,9 +250,9 @@ export function Header() {
                   </div>
                   <div className="flex items-center space-x-1">
                     <Mail className="h-4 w-4" />
-                    <span className="hidden xl:inline">
+                    {/* <span className="hidden xl:inline">
                       info@heritagekashmir.com
-                    </span>
+                    </span> */}
                   </div>
                 </div>
                 <Button
