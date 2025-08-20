@@ -17,7 +17,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="text-2xl font-serif font-bold text-primary">Heritage Kashmir</div>
             <p className="text-secondary-foreground/80 leading-relaxed">
-              Crafting luxury travel experiences across the enchanting landscapes of Kashmir and Ladakh since 2010.
+              Crafting luxury travel experiences across the enchanting landscapes of Kashmir and Ladakh 
             </p>
             <div className="flex space-x-4">
               <Button variant="ghost" size="icon" className="text-secondary-foreground hover:text-primary">
@@ -71,11 +71,11 @@ export function Footer() {
 
           {/* Contact Info */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-primary">Contact Us</h3>
+            {/* <h3 className="text-lg font-semibold text-primary">Contact Us</h3> */}
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-primary" />
-                <span className="text-secondary-foreground/80">+91 9876543210</span>
+                {/* <Phone className="h-5 w-5 text-primary" /> */}
+                {/* <span className="text-secondary-foreground/80">+91 9876543210</span> */}
               </div>
               <div className="flex items-center space-x-3">
                 {/* <Mail className="h-5 w-5 text-primary" /> */}
@@ -96,7 +96,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-secondary-foreground/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <div className="text-sm text-secondary-foreground/60 mb-4 md:mb-0">
-            © 2024 Heritage Kashmir Explorers. All rights reserved. | GST: 01ABCDE1234F1Z5 | License: J&K/TRV/2024/001
+            © Heritage Kashmir Explorers. All rights reserved. | 
           </div>
 
           <Button

@@ -263,7 +263,7 @@ export function HeroSection() {
               className="text-base sm:text-lg px-6 sm:px-8 py-4 sm:py-6 bg-yellow-500 hover:bg-yellow-600 text-black font-semibold shadow-xl rounded-lg w-full sm:w-auto"
             >
               <a
-                href="https://wa.me/919596055491?text=Hi, I want to plan my trip with Heritage Kashmir Explorers"
+                href="https://wa.me/?text=Hi, I want to plan my trip with Heritage Kashmir Explorers"
                 target="_blank"
                 rel="noopener noreferrer"
               >

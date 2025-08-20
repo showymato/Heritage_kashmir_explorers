@@ -138,7 +138,7 @@ Please help me plan the perfect Kashmir/Ladakh experience!`
 
   const handleSubmit = () => {
     const whatsappMessage = generateWhatsAppMessage()
-    const whatsappUrl = `https://wa.me/919876543210?text=${whatsappMessage}`
+    const whatsappUrl = `https://wa.me/?text=${whatsappMessage}`
     window.open(whatsappUrl, "_blank")
   }
 
@@ -521,7 +521,7 @@ Please help me plan the perfect Kashmir/Ladakh experience!`
               className="flex items-center gap-2 bg-transparent"
               onClick={() =>
                 window.open(
-                  "https://wa.me/919876543210?text=Hi! I would like to plan a trip to Kashmir/Ladakh. Can you help me?",
+                  "https://wa.me/?text=Hi! I would like to plan a trip to Kashmir/Ladakh. Can you help me?",
                   "_blank",
                 )
               }
