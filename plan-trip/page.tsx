@@ -535,7 +535,7 @@ Please help me plan the perfect Kashmir/Ladakh experience!`
               onClick={() => window.open("tel:+919876543210", "_self")}
             >
               <Phone className="h-4 w-4" />
-              Call +91 9876543210
+              {/* Call +91 9876543210 */}
             </Button>
           </div>
         </div>
