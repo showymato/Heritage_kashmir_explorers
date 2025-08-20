@@ -85,7 +85,7 @@ export default function ContactPage() {
                       <h3 className="font-semibold">WhatsApp</h3>
                       <Button asChild variant="outline" size="sm">
                         <a
-                          href="https://wa.me/919596055491?text=Hi, I want to plan my trip with Heritage Kashmir Explorers"
+                          href="https://wa.me/?text=Hi, I want to plan my trip with Heritage Kashmir Explorers"
                           target="_blank"
                           rel="noopener noreferrer"
                         >

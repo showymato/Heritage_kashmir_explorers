@@ -93,7 +93,7 @@ export function Header() {
                   asChild
                   className="bg-gradient-to-r from-orange-500 to-amber-500 hover:from-orange-600 hover:to-amber-600 text-white border-none shadow-lg hover:shadow-amber-500/30 hover:scale-105 transition-all duration-200"
                 >
-                  <Link href="https://wa.me/919876543210">Plan My Trip</Link>
+                  <Link href="https://wa.me/">Plan My Trip</Link>
                 </Button>
               </div>
             </div>
