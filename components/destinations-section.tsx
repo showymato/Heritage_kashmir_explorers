@@ -1,4 +1,5 @@
 "use client"
+import Image from "next/image"
 
 import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
@@ -7,42 +8,42 @@ const destinations = [
   {
     name: "Srinagar",
     description: "The crown jewel with Dal Lake and Mughal gardens",
-    image: "/srinagar-dal-lake-houseboats-mughal-gardens.png",
+    image: "/srinagar-dal-lake-houseboats-mughal-gardens.jpg",
     bestTime: "Mar-Oct",
     highlights: ["Dal Lake", "Mughal Gardens", "Old City"],
   },
   {
     name: "Gulmarg",
     description: "Meadow of flowers and winter sports paradise",
-    image: "/gulmarg-meadows-gondola.png",
+    image: "/gulmarh.jpg",
     bestTime: "All Year",
     highlights: ["Gondola Ride", "Skiing", "Alpine Views"],
   },
   {
     name: "Leh",
     description: "Gateway to high-altitude desert landscapes",
-    image: "/leh-ladakh-monasteries.png",
+    image: "/lehh.jpg",
     bestTime: "May-Sep",
     highlights: ["Monasteries", "Palace", "Markets"],
   },
   {
     name: "Pangong Lake",
     description: "Pristine high-altitude lake of changing colors",
-    image: "/pangong-lake-ladakh.png",
+    image: "/ladakh-pangong-lake.jpg",
     bestTime: "Jun-Sep",
     highlights: ["Color Changes", "Camping", "Photography"],
   },
   {
-    name: "Sonamarg",
+    name: "sonamargh",
     description: "Golden meadow surrounded by glaciers",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/sonamargh.jpg", // Fixed the image path
     bestTime: "May-Oct",
     highlights: ["Thajiwas Glacier", "Trekking", "Pony Rides"],
   },
   {
     name: "Nubra Valley",
     description: "Cold desert with sand dunes and double-humped camels",
-    image: "/placeholder.svg?height=300&width=400",
+    image: "/nubra_valley.jpg",
     bestTime: "Jun-Sep",
     highlights: ["Sand Dunes", "Camel Safari", "Diskit Monastery"],
   },

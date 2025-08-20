@@ -18,7 +18,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat parallax"
         style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/kashmir-dal-lake-sunrise.png')`,
+          backgroundImage: `linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/kashmir-dal-lake-sunrise.jpg')`,
         }}
       />
 
@@ -26,8 +26,8 @@ export function HeroSection() {
       <div className="relative z-10 text-center text-white px-4 max-w-6xl mx-auto">
         <div className={`transition-all duration-1000 ${isVisible ? "animate-fade-in-up" : "opacity-0"}`}>
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-serif font-bold mb-6 leading-tight">
-            <span className="block">Handcrafted Journeys</span>
-            <span className="block text-primary animate-typewriter">Across Kashmir & Ladakh</span>
+            <span className="block">Explore</span>
+            <span className="block text-primary animate-typewriter">Kashmir & Ladakh</span>
           </h1>
 
           <p className="text-lg sm:text-xl md:text-2xl mb-8 text-gray-200 max-w-3xl mx-auto leading-relaxed">

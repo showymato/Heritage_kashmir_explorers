@@ -36,10 +36,10 @@ const accommodationTypes = [
 ]
 
 const budgetRanges = [
-  { value: "budget", label: "Budget Friendly (₹15,000 - ₹25,000 per person)" },
-  { value: "mid", label: "Mid Range (₹25,000 - ₹40,000 per person)" },
-  { value: "premium", label: "Premium (₹40,000 - ₹60,000 per person)" },
-  { value: "luxury", label: "Luxury (₹60,000+ per person)" },
+  { value: "budget", label: "Budget Friendly " },
+  { value: "mid", label: "Mid Range " },
+  { value: "premium", label: "Premium " },
+  { value: "luxury", label: "Luxury " },
   { value: "flexible", label: "Flexible - Please suggest" },
 ]
 

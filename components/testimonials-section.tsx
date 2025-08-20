@@ -7,11 +7,11 @@ import { Badge } from "@/components/ui/badge"
 import { Star, ChevronLeft, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
-const testimonials = [
+const testimonials =[
   {
     id: 1,
-    name: "Priya & Raj Sharma",
-    location: "Mumbai",
+    name: "Mr. & Mrs. Dwedi",
+    location: "Delhi",
     trip: "Honeymoon Package",
     rating: 5,
     text: "Our Kashmir honeymoon was absolutely magical! The houseboat stay on Dal Lake and the personalized service made it unforgettable. Every detail was perfectly arranged.",
@@ -19,32 +19,42 @@ const testimonials = [
   },
   {
     id: 2,
-    name: "David Johnson",
-    location: "London, UK",
+    name: "Karan",
+    location: "Mumbai",
     trip: "Leh-Ladakh Adventure",
     rating: 5,
-    text: "The Ladakh expedition exceeded all expectations. Our guide was knowledgeable, the accommodations were excellent, and the landscapes were breathtaking. Highly recommended!",
-    image: "/placeholder.svg?height=60&width=60",
+    text: "The Ladakh expedition exceeded all expectations. The guide was knowledgeable, accommodations were excellent, and the landscapes were breathtaking. Highly recommended!",
+    image: "/hh.jpg",
   },
   {
     id: 3,
-    name: "Meera Patel Family",
-    location: "Ahmedabad",
+    name: "Aishwarya",
+    location: "Bengaluru",
     trip: "Kashmir Family Tour",
     rating: 5,
-    text: "Perfect family vacation! The kids loved the pony rides in Pahalgam, and we adults were mesmerized by the beauty of Gulmarg. Excellent arrangements throughout.",
+    text: "Perfect family vacation! The kids loved the pony rides in Pahalgam, and we were mesmerized by the beauty of Gulmarg. Excellent arrangements throughout.",
     image: "/placeholder.svg?height=60&width=60",
   },
   {
     id: 4,
-    name: "Sarah & Mike Chen",
-    location: "Singapore",
+    name: "Nikhil",
+    location: "Ahmedabad",
     trip: "Winter Wonderland",
     rating: 5,
-    text: "Kashmir in winter is pure magic! The snow-covered landscapes, cozy houseboats, and warm hospitality made our trip extraordinary. Professional service from start to finish.",
+    text: "Kashmir in winter is pure magic! The snow-covered landscapes, cozy houseboats, and warm hospitality made the trip extraordinary. Professional service from start to finish.",
+    image: "/placeholder.svg?height=60&width=60",
+  },
+  {
+    id: 5,
+    name: "Mohit",
+    location: "Pune",
+    trip: "Adventure Trek",
+    rating: 5,
+    text: "The trekking experience in Kashmir was unforgettable! Scenic trails, professional guides, and well-planned arrangements made it an incredible journey.",
     image: "/placeholder.svg?height=60&width=60",
   },
 ]
+
 
 export function TestimonialsSection() {
   const [currentIndex, setCurrentIndex] = useState(0)

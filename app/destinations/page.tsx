@@ -7,37 +7,37 @@ const destinations = [
   {
     name: "Srinagar",
     description: "Dal Lake, Mughal Gardens, Houseboats",
-    image: "/srinagar-dal-lake.png",
+    image: "/srinagar-dal-lake-houseboats-mughal-gardens.jpg",
     highlights: ["Dal Lake Shikara Rides", "Mughal Gardens", "Houseboat Stays", "Floating Markets"],
   },
   {
     name: "Gulmarg",
     description: "Skiing, Gondola Ride, Meadows",
-    image: "/gulmarg-gondola.png",
+    image: "/gulmarh.jpg",
     highlights: ["Gondola Cable Car", "Skiing & Snowboarding", "Alpine Meadows", "Golf Course"],
   },
   {
     name: "Pahalgam",
     description: "Aru Valley, Lidder River, Betaab Valley",
-    image: "/pahalgam-valley.png",
+    image: "/phal.jpg",
     highlights: ["Betaab Valley", "Aru Valley", "Lidder River", "Chandanwari"],
   },
   {
     name: "Sonmarg",
     description: "Gateway to Great Lakes Trek",
-    image: "/sonmarg-meadows.png",
+    image: "/sonamargh.jpg",
     highlights: ["Thajiwas Glacier", "Zoji La Pass", "Trekking Base", "Sindh River"],
   },
   {
     name: "Leh",
     description: "Monasteries, Culture, Nubra Valley",
-    image: "/leh-monasteries.png",
+    image: "/lehh.jpg",
     highlights: ["Ancient Monasteries", "Leh Palace", "Local Markets", "Cultural Heritage"],
   },
   {
     name: "Pangong Lake",
     description: "Scenic high-altitude lake",
-    image: "/pangong-lake.png",
+    image: "/ladakh-pangong-lake.jpg",
     highlights: ["Crystal Blue Waters", "High Altitude Lake", "Stunning Landscapes", "Photography Paradise"],
   },
 ]

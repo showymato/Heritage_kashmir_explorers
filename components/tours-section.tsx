@@ -92,9 +92,9 @@ export function ToursSection() {
                   <Heart className="h-4 w-4" />
                 </button>
                 <div className="absolute bottom-4 right-4">
-                  <Badge className="bg-accent text-accent-foreground font-semibold">
+                  {/* <Badge className="bg-accent text-accent-foreground font-semibold">
                     ₹{tour.price?.toLocaleString()}
-                  </Badge>
+                  </Badge> */}
                 </div>
               </header>
 

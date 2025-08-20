@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Heritage Kashmir Explorers - Luxury Tours & Travel",
     description: "Handcrafted journeys across Kashmir & Ladakh with luxury accommodations and expert guides",
-    images: ["/kashmir-dal-lake-sunrise.png"],
+    images: ["/kashmir-dal-lake-sunrise.jpg"],
     type: "website",
     locale: "en_US",
   },
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Heritage Kashmir Explorers - Luxury Tours & Travel",
     description: "Handcrafted journeys across Kashmir & Ladakh",
-    images: ["/kashmir-dal-lake-sunrise.png"],
+    images: ["/kashmir-dal-lake-sunrise.jpg"],
   },
   viewport: {
     width: "device-width",

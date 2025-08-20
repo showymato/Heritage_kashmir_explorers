@@ -36,10 +36,10 @@ export default function ToursPage() {
       switch (sortBy) {
         case "rating":
           return b.rating - a.rating
-        case "price-low":
-          return (a.price || 0) - (b.price || 0)
-        case "price-high":
-          return (b.price || 0) - (a.price || 0)
+        // case "price-low":
+        //   return (a.price || 0) - (b.price || 0)
+        // case "price-high":
+        //   return (b.price || 0) - (a.price || 0)
         case "duration":
           return Number.parseInt(a.duration) - Number.parseInt(b.duration)
         default:
@@ -168,9 +168,9 @@ export default function ToursPage() {
                       <Heart className="h-4 w-4" />
                     </button>
                     <div className="absolute bottom-4 right-4">
-                      <Badge className="bg-accent text-accent-foreground font-semibold">
+                      {/* <Badge className="bg-accent text-accent-foreground font-semibold">
                         ₹{tour.price?.toLocaleString()}
-                      </Badge>
+                      </Badge> */}
                     </div>
                   </div>
 

@@ -11,9 +11,9 @@ export const tours = [
     bestSeason: "April to October",
     theme: "Cultural",
     groupSize: "2-12 people",
-    price: 45000, // Added price field for display
-    image: "/kashmir-dal-lake-houseboats.png",
-    bannerImage: "/kashmir-dal-lake-sunrise.png",
+    // price: 45000, // Added price field for display
+    image: "/kashmir-dal-lake-houseboats.jpg",
+    bannerImage: "/kashmir-dal-lake-sunrise.jpg",
     highlights: ["Dal Lake Houseboat", "Gulmarg Gondola", "Pahalgam Meadows"],
     rating: 4.9,
     reviews: 124,
@@ -141,9 +141,9 @@ export const tours = [
     bestSeason: "May to September",
     theme: "Adventure",
     groupSize: "4-10 people",
-    price: 55000, // Added price field for display
-    image: "/ladakh-pangong-lake.png",
-    bannerImage: "/ladakh-pangong-lake.png",
+    // price: 55000, // Added price field for display
+    image: "/ladakh-pangong-lake.jpg",
+    bannerImage: "/ladakh-pangong-lake.jpg",
     highlights: ["Nubra Valley", "Pangong Lake", "Ancient Monasteries"],
     rating: 4.8,
     reviews: 89,
@@ -286,9 +286,9 @@ export const tours = [
     bestSeason: "December to February",
     theme: "Adventure",
     groupSize: "2-6 people",
-    price: 35000,
-    image: "/kashmir-winter-skiing-gulmarg.png",
-    bannerImage: "/kashmir-houseboat-sunset.png",
+    // price: 35000,
+    image: "/kashmir-winter-skiing-gulmarg.jpg",
+    bannerImage: "/kashmir-houseboat-sunset.jpg",
     highlights: ["Snow Activities", "Houseboat Stay", "+1 more"],
     rating: 4.7,
     reviews: 67,

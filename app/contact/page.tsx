@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react"
+import Image from 'next/image'
 
 export default function ContactPage() {
   return (
@@ -97,7 +98,7 @@ export default function ContactPage() {
               </div>
             </div>
 
-            {/* Contact Form */}
+            {/* Contact Form
             <Card>
               <CardHeader>
                 <CardTitle className="text-2xl font-serif">Send us a Message</CardTitle>
@@ -143,24 +144,37 @@ export default function ContactPage() {
                   </Button>
                 </form>
               </CardContent>
-            </Card>
+            </Card> */}
           </div>
         </div>
       </section>
 
       {/* Map Section */}
-      <section className="py-16 bg-muted/30">
-        <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-serif font-bold text-center mb-8">Find Us</h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="bg-gray-200 h-96 rounded-lg flex items-center justify-center">
-              <p className="text-muted-foreground">
-                Interactive map showing our location in Srinagar would be embedded here
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+ <section className="py-20 bg-gray-50">
+  <div className="container mx-auto px-4">
+    <h2 className="text-4xl font-serif font-bold text-center mb-10 text-gray-800">
+      Find Us
+    </h2>
+
+    <div className="max-w-4xl mx-auto">
+  {/* Map Box with Padding */}
+  <div className="h-126 rounded-2xl overflow-hidden shadow-2xl border border-gray-300 p-4 bg-white">
+    <div className="w-full h-full rounded-xl overflow-hidden">
+      <Image
+        src="/mappp.jpg" // 👈 replace with your actual image path
+        alt="Srinagar Map"
+        width={700}
+        height={300}
+        className="w-full h-full object-cover"
+        priority
+      />
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
 
       <Footer />
       <WhatsAppFloat />

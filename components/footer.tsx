@@ -48,10 +48,10 @@ export function Footer() {
               <Link href="/about" className="block text-secondary-foreground/80 hover:text-primary transition-colors">
                 About Us
               </Link>
-              <Link href="/blog" className="block text-secondary-foreground/80 hover:text-primary transition-colors">
+              <Link href="/" className="block text-secondary-foreground/80 hover:text-primary transition-colors">
                 Travel Blog
               </Link>
-              <Link href="/reviews" className="block text-secondary-foreground/80 hover:text-primary transition-colors">
+              <Link href="" className="block text-secondary-foreground/80 hover:text-primary transition-colors">
                 Reviews
               </Link>
             </div>
