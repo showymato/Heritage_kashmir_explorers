@@ -18,7 +18,7 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Heritage Kashmir Explorers - Luxury Tours & Travel",
   description:
-    "Handcrafted journeys across Kashmir & Ladakh. Experience the royal heritage of Kashmir with our luxury travel packages, custom itineraries, and expert local guides.",
+    "Handcrafted journeys across Kashmir & Ladakh. Experience the royal heritage of Kashmir with our luxury travel packages, custom itineraries and expert local guides.",
   keywords:
     "Kashmir tours, Ladakh travel, luxury travel, heritage tours, Dal Lake, Gulmarg, Leh, Pangong Lake, houseboat stays, adventure tours",
   openGraph: {
@@ -63,7 +63,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <meta name="theme-color" content="#c89b3c" />
+        <meta name="theme-color" content="#c59a3dff" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="default" />
         <meta name="format-detection" content="telephone=no" />
